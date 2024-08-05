@@ -1,4 +1,5 @@
-# JavaScript DApp Template
+# Auctioneer
 
-This is a template for JavaScript Cartesi DApps. It uses node to execute the backend application.
-The application entrypoint is the `src/index.js` file. It is bundled with [esbuild](https://esbuild.github.io), but any bundler can be used.
+A dApp where you can participate and create your own auctions.
+
+A user can create only one active auction at a time.
