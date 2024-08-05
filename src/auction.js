@@ -25,6 +25,8 @@ function updateBid(id, sender) {
 
       if (curr.activeAmount === 1) curr.activeAmount = 2;
       else curr.activeAmount += (curr.activeAmount / 4) * 3;
+
+      curr.activeBidder = sender;
     }
   }, false);
 
