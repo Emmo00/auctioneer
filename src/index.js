@@ -8,7 +8,6 @@ const {
 
 const rollup_server = process.env.ROLLUP_HTTP_SERVER_URL;
 console.log("HTTP rollup_server url is " + rollup_server);
-S;
 
 async function handle_advance(data) {
   console.log("Received advance request data " + JSON.stringify(data));
